@@ -15,10 +15,12 @@ public class WarmUp1 {
         //Third Question
         for(int i =0; i<=100; i+=10)
         {
-            if (i%20 ==0)
-                System.out.println(i + " Java");
-            else
-                System.out.println(i);
+//            if (i%20 ==0)
+//                System.out.println(i + " Java");
+//            else
+//                System.out.println(i);
+
+            System.out.printf("%n%s", (i%20==0)? i + " Java": i);
         }
 
 
